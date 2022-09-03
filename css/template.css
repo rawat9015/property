@@ -53,6 +53,9 @@ nav{
     font-size: 13px;
     
 }
+.navbar-brand{
+    padding-left: 25px;
+}
 .text-box{
     position: absolute;
     /* width: 90%; */
@@ -451,6 +454,7 @@ font-weight: 300;
 }
 /* responsiveness */
 @media (max-width:426px){
+   
     .second-section{
         display: none;
     }
@@ -460,11 +464,15 @@ font-weight: 300;
     .counter-up .content{
         display: block;
     }
-    .navbar-toggler
-    {
-        background-color: pink;
-        color: #000000;
-    }
+   .navbar-collapse{
+    background: rgb(6, 17, 42);
+    opacity: 0.9;
+    border-radius: 67px;
+    height: 317px;
+   }
+   nav form{
+    margin-left: 38%;
+   }
     /* .third-col{
         margin-top: 27px;
         margin-left: 300px;
@@ -473,6 +481,15 @@ font-weight: 300;
 }
 /* tablet  */
 @media only screen and (min-width: 426px) and (max-width: 769px){
+    .navbar-collapse{
+        background: rgb(6, 17, 42);
+        opacity: 0.9;
+        border-radius: 67px;
+        height: 317px;
+       }
+       nav form{
+        margin-left: 38%;
+       }
     .second-section{
         display: none;
     }
@@ -482,11 +499,7 @@ font-weight: 300;
     .counter-up .content{
         display: block;
     }
-    .navbar-toggler
-    {
-        background-color: pink;
-        color: #000000;
-    }
+  
     .services{
         padding: 35px;
     }
